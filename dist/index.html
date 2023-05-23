@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="output.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlissaKatrina</title>
+</head>
+<body class="bg-gray-950 text-white	">
+    <!-- ############ NAV BAR SECTION ################-->
+    <header class="sticky top-0 z-50">
+      <nav class="container flex justify-between items-center">
+          <div class="py-5 text-color-secondary font-bold text-3xl">
+              <a href="#home">
+                  <span class="text-color-white">Light</span>Code.
+              </a>
+          </div>
+          <div>
+              <ul class="hidden lg:flex items-center space-x-6">
+                  <li><a href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+                  <li><a href="#features" class="hover:text-color-secondary ease-in duration-200">Features</a></li>
+                  <li><a href="#testimonial" class="hover:text-color-secondary ease-in duration-200">Testimonial</a></li>
+                  <li><a href="#pricing" class="hover:text-color-secondary ease-in duration-200">Pricing</a></li>
+                  <li><a href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>
+                  <li><a href="#contact" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
+
+                 
+              </ul>
+          </div>
+
+          <!-- Mobile screen  -->
+  
+          <div id="hamburger" class="lg:hidden cursor-pointer z-50 mr-6">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div id="menu" class="hidden bg-gray-950 h-[50vh] absolute inset-0">
+            <ul class="h-full grid place-items-center py-20 text-lg">
+                <li><a id="hLink" href="#home" class=" text-xl hover:text-color-secondary ease-in duration-200">Home</a></li>
+                <li><a id="hLink" href="#features" class="text-xl hover:text-color-secondary ease-in duration-200">Features</a></li>
+                <li><a id="hLink" href="#testimonial" class="text-xl hover:text-color-secondary ease-in duration-200">Testimonial</a></li>
+                <li><a id="hLink" href="#pricing" class="text-xl hover:text-color-secondary ease-in duration-200">Pricing</a></li>
+                <li><a id="hLink" href="#blog" class="text-xl hover:text-color-secondary ease-in duration-200">Blog</a></li>
+                <li><a id="hLink" href="#contact" class="text-xl hover:text-color-secondary ease-in duration-200">Contact</a></li>
+            </ul>
+        </div>
+      </nav>
+  </header>
+
+
+   <!-- ############ HOME SECTION ################-->
+   <section id="home" class="bg-url"  >
+    <div class=" flex flex-col-reverse items-center space-y-0 md:space-y-0 md:flex-row h-[77vh]">
+      <div class="m-auto">
+        <div id="bigtitle" class="tracking-wide	">
+          <h1 class="flex flex-col text-7xl font-bold">Nice to meet you!</h1>
+          <h2 class="flex flex-col text-5xl mt-2 text-green-300 font-bold"> I'm Alissa Katrina</h2>
+          <div class="max-w-lg mt-6 ">
+            <p class="flex flex-col text-justify	"> Alissa is a talented and aspiring model who has made a mark in the fashion industry. she captivates the attention of both photographers and designers alike. Alissa's unique style and ability to effortlessly bring life to various fashion concepts have gained her recognition and admiration in the modeling world. </p>
+          </div>
+          <p class="text-green-300 font-bold mt-14 text-xl underline decoration-white	"> Contact me </p>
+        </div>
+      </div>
+      <!-- ... -->
+      <div  class="m-auto ">
+        <img class=" object-contain max-h-fit transition-all rounded-lg  	" src="/img/models.jpg" alt="model">
+      </div>
+   </div>
+</section>   
+
+<script src="/dist/script.js"></script> 
+
+</body>
+</html>
