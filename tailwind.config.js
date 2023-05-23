@@ -9,6 +9,12 @@ module.exports = {
       xl: '1440px',
     },
     extend: {
+      screens: {
+        'xsmall': '300px',
+        'phones':'576px', 
+        'tablet': '768px',
+        'desktop': '1024px',
+      },
       backgroundImage: {
         'url': 'url("/img/bg.png")',
       },
