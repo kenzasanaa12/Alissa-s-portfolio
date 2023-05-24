@@ -10,13 +10,13 @@ module.exports = {
     },
     extend: {
       screens: {
-        
         'phones':'576px', 
         'tablet': '768px',
         'desktop': '1024px',
       },
       backgroundImage: {
         'url': 'url("/img/bg.png")',
+        'projetsss': 'url("/img/bg2.png")',
       },
       colors: {
         brightpink: '#FF5733',
